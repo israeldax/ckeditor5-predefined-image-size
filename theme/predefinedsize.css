@@ -1,0 +1,26 @@
+:root {
+	--ck-image-style-spacing: 1.5em;
+}
+
+.ck-content {
+    & .image {
+        max-width: 450px;
+        margin: var(--ck-image-style-spacing) auto;
+    }
+
+	& .img-prd-size-sml {
+		max-width: 350px;
+        margin: var(--ck-image-style-spacing) auto;
+	}
+
+	& .img-prd-size-med {
+		max-width: 450px;
+        margin: var(--ck-image-style-spacing) auto;
+	}
+
+	& .img-prd-size-big {
+		max-width: 680px;
+        margin: var(--ck-image-style-spacing) auto;
+	}
+
+}
