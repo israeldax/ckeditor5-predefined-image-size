@@ -1,5 +1,6 @@
-import ImageSizePredefinedCommand from '@ckeditor/ckeditor5-image-size-predefined/src/imagesizepredefined/imagesizepredefinedcommand';
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
+
+import ImageSizePredefinedCommand from './imagesizepredefinedcommand';
 import {modelToViewPredefinedSize, viewToModelPredefinedSize} from './converters';
 
 export default class ImageSizePredefinedEditing extends Plugin {
