@@ -1,0 +1,48 @@
+{
+	"name": "ckeditor5-predefined-image-size",
+	"version": "0.0.1",
+	"description": "Predefined image sizes to ckeditor 5",
+	"keywords": [
+		"ckeditor",
+		"ckeditor5",
+		"ckeditor 5",
+		"ckeditor image",
+		"predefined size",
+		"ckeditor image predefined size"
+	],
+	"dependencies": {
+		"@ckeditor/ckeditor5-core": "^12.3.0",
+		"@ckeditor/ckeditor5-engine": "^14.0.0",
+		"@ckeditor/ckeditor5-image": "^14.0.0",
+		"@ckeditor/ckeditor5-ui": "^14.0.0",
+		"@ckeditor/ckeditor5-upload": "^12.0.0",
+		"@ckeditor/ckeditor5-utils": "^14.0.0",
+		"@ckeditor/ckeditor5-widget": "^11.1.0"
+	},
+	"devDependencies": {
+		"eslint": "^6.4.0",
+		"eslint-config-ckeditor5": "^2.0.0"
+	},
+	"author": "IsraelDax",
+	"license": "ISC",
+	"homepage": "https://github.com/israeldax/ckeditor5-predefined-image-size#readme",
+	"bugs": {
+		"url": "https://github.com/israeldax/ckeditor5-predefined-image-size/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/israeldax/ckeditor5-predefined-image-size.git"
+	},
+	"files": [
+		"src",
+		"theme"
+	],
+	"scripts": {
+		"lint": "eslint --quiet '**/*.js'",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"eslintIgnore": [
+		"src/lib/**",
+		"packages/**"
+	]
+}
