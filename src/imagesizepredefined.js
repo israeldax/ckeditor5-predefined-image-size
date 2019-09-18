@@ -1,6 +1,6 @@
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 
-import ImageSizePredefinedEditing from './imagesizepredefined/ImageSizePredefinedEditing';
+import ImageSizePredefinedEditing from './imagesizepredefined/imagesizepredefinedediting';
 import ImageSizePredefinedUI from './imagesizepredefined/imagesizepredefinedui';
 
 export default class ImageSizePredefined extends Plugin {
